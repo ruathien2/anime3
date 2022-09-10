@@ -1,0 +1,28 @@
+body {
+  padding: 0;
+  margin: 0;
+  user-select: none;
+  --color: rgb(5, 5, 5);
+  --background-color: rgb(5, 5, 5);
+
+  color: var(--color);
+  background-color: var(--background-color);
+  /* ---------- */
+}
+
+body.light-mode {
+  --color: rgb(5, 5, 5);
+  --background-color: rgb(250, 250, 250);
+}
+input,
+button {
+  border: none;
+}
+
+input {
+  outline: none;
+}
+
+a {
+  color: #333;
+}

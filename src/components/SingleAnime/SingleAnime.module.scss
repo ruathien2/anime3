@@ -1,0 +1,76 @@
+.singleanime__container {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  border-bottom: 3px double var(--primary-btn);
+  align-items: center;
+}
+
+.img_anime {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+
+  img {
+    box-shadow: 0 1px 20px 1px rgba($color: #000000, $alpha: 0.5);
+    border-radius: 10px;
+  }
+}
+
+.singleanime__title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+
+  h1 {
+    color: var(--primary-btn);
+  }
+}
+
+.singleanime__description {
+  padding: 20px;
+  background-color: rgb(219, 219, 219);
+  border-radius: 20px;
+}
+
+.wrapper-btn {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.btn-animelist {
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 120px;
+  text-align: center;
+  background-color: red;
+}
+
+.btn-animelist1 {
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 120px;
+  text-align: center;
+  background-color: rgb(6, 189, 0);
+}
+
+.a,
+.f {
+  color: #fff;
+}
+
+.btn-animelist:hover,
+.btn-animelist1:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  color: #fff;
+}
+
+.a:hover,
+.f:hover {
+  color: #fff;
+}
+
+.icon {
+  padding-left: 5px;
+}

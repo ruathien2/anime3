@@ -1,0 +1,102 @@
+.post-article {
+  display: inline-flex;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-weight: 500;
+  background-color: #000000;
+  color: #fff;
+}
+
+.post-article:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.container {
+  background-color: #fff;
+  margin-top: 10px;
+  width: 1200px;
+  box-shadow: 0 1px 10px 1px rgba($color: #000000, $alpha: 0.2);
+  border-radius: 10px;
+  padding: 20px 20px 0 20px;
+
+  .user {
+    display: flex;
+    margin-bottom: 30px;
+
+    .inner-avatar {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .info-user-post {
+      display: flex;
+      flex-direction: column;
+      font-size: 1.2rem;
+
+      .user-post {
+        font-weight: 500;
+      }
+    }
+  }
+
+  .img-des {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 600px;
+
+    img {
+    }
+  }
+
+  .des-group {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    color: #000;
+
+    .title {
+      display: flex;
+      justify-content: center;
+      font-weight: 500;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .des {
+      font-size: 1.7rem;
+      line-height: 1rem;
+    }
+  }
+
+  .feature {
+    display: flex;
+    justify-content: center;
+
+    .heart {
+      display: inline-flex;
+      margin-right: 10px;
+    }
+
+    .likes {
+      display: flex;
+      margin-right: 10px;
+    }
+
+    .comments {
+      margin-right: 10px;
+    }
+
+    .delete :hover {
+      cursor: pointer;
+      color: red;
+    }
+  }
+}

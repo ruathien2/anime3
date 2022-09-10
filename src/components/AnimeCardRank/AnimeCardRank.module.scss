@@ -1,0 +1,48 @@
+.animecard__container {
+  padding: 0 8px;
+  transition: transform linear 0.2;
+  will-change: transform;
+}
+
+.animecard__container:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+.img__anime {
+  width: 100vw;
+  height: 100vh;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.animecard__paper {
+  box-shadow: 0 1px 10px 1px rgba($color: #000000, $alpha: 0.2);
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.animecard__des {
+  padding: 10px 10px 0;
+  background-color: #fff;
+}
+
+.animecard__learn {
+  width: 100px;
+  margin-top: 20px;
+  padding-bottom: 15px;
+  a {
+    background-color: red;
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+  }
+
+  a:hover {
+    color: #fff;
+  }
+
+  a:hover {
+    opacity: 0.5;
+  }
+}

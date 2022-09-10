@@ -1,0 +1,10 @@
+export { default as Home } from './Home/Home';
+export { default as Characters } from './Characters/Characters';
+export { default as Manga } from './Manga/Manga';
+export { default as Rank } from './Rank/Rank';
+export { default as Results } from './Results/Results';
+export { default as SingleView } from './SingleView/SingleView';
+export { default as SingleViewCharacters } from './SingleViewCharacters/SingleViewCharacters';
+export { default as Profile } from './Profile';
+export { default as PostNews } from './PostNews';
+export { default as News } from './News';
