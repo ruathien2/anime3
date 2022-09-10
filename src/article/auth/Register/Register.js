@@ -20,7 +20,7 @@ export default function Register() {
       updateProfile(auth.currentUser, { displayName: name });
       navigate('/anime3/articles');
     } catch (error) {
-      toast(error.code, { type: 'error' });
+      alert(error.code, { type: 'error' });
     }
   };
   return (

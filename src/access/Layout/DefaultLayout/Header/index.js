@@ -93,7 +93,7 @@ function Header() {
               onClick={() => toggleDarkMode()}
             />
           </li>
-          {/* <li className={cx('login-btn')}>
+          <li className={cx('login-btn')}>
             <UserOutlined className={cx('logo__control')} />
             <ul className={cx('menu-btn')}>
               <li className={cx('res')} onClick={logoutUser}>
@@ -102,11 +102,11 @@ function Header() {
               <li className={cx('res')}>
                 <Link to="/anime3/profile-user">Profile</Link>
               </li>
-              <li className={cx('res')}>
+              {/* <li className={cx('res')}>
                 <Link to="/anime3/post-news"> Post News</Link>
-              </li>
+              </li> */}
             </ul>
-          </li> */}
+          </li>
         </ul>
       </div>
     </div>

@@ -34,7 +34,7 @@ export default function AddArticle() {
   };
 
   const handlePublish = () => {
-    if (!formData.title || !formData.description) {
+    if (!formData.title) {
       alert('Please fill all the fields');
       return;
     }
@@ -121,6 +121,7 @@ export default function AddArticle() {
               value={formData.description}
               onChange={(e) => handleChange(e)}
               placeholder="Description"
+              rows="4"
             />
 
             {/* image */}
@@ -130,6 +131,7 @@ export default function AddArticle() {
               accept="image/*"
               className={cx('form-control')}
               onChange={(e) => handleImageChange(e)}
+              style={{ background: '#fff' }}
             />
 
             <input
