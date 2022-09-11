@@ -9,6 +9,7 @@ import classNames from 'classnames/bind';
 import styles from './Articles.module.scss';
 import AddArticle from '../AddArticle/AddArticle';
 import ReactPlayer from 'react-player';
+import Comment from '../Comment/Comment';
 
 const cx = classNames.bind(styles);
 

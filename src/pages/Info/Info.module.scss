@@ -1,0 +1,22 @@
+.container {
+  width: 1200px;
+  color: blue;
+
+  .title {
+    text-align: center;
+  }
+
+  .img-des {
+    list-style: none;
+
+    li {
+      margin-top: 10px;
+
+      img {
+        height: 300px;
+        border-radius: 10px;
+        box-shadow: 0 1px 10px 1px rgba($color: #000000, $alpha: 0.2);
+      }
+    }
+  }
+}

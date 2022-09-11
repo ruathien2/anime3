@@ -18,6 +18,7 @@ import { SearchContext } from '../context/search';
 import { ButtonTop } from '../components';
 import styles from './Link.module.scss';
 import classNames from 'classnames/bind';
+import Info from '../pages/Info';
 import { Register, Login, AddArticle, Article, Articles } from '../article';
 
 const cx = classNames.bind(styles);
@@ -202,6 +203,7 @@ function Link() {
                 <Route path="signin" element={<Login />} />
                 <Route path="articles/article/:id" element={<Article />} />
                 <Route path="articles" element={<Articles />} />
+                <Route path="tutorial" element={<Info />} />
               </Route>
             </Routes>
           </main>
