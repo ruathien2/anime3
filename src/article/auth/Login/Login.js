@@ -39,7 +39,7 @@ export default function Login() {
         <input
           type="password"
           className="form-control"
-          placeholder="Password"
+          placeholder="Password / 6 characters or more"
           onChange={(e) => {
             setPassword(e.target.value);
           }}

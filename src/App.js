@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className={cx('wrapper')}>
-      {/* {error && <p className="error">{error}</p>}
+      {error && <p className="error">{error}</p>}
       {loading ? (
         <h2 style={{ color: '#fff' }}>Loading...</h2>
       ) : (
@@ -28,8 +28,7 @@ function App() {
             </div>
           )}
         </>
-      )} */}
-      <Link />
+      )}
     </div>
   );
 }

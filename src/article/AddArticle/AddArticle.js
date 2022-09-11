@@ -157,9 +157,9 @@ export default function AddArticle() {
               <button onClick={handlePublish}>Send</button>
             </div>
           </div>
-          <div className={cx('logout')}>
+          {/* <div className={cx('logout')}>
             <span onClick={logoutUser}>Logout</span>
-          </div>
+          </div> */}
         </>
       )}
     </div>

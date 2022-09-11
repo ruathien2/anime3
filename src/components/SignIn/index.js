@@ -33,7 +33,11 @@ function SignIn() {
       </div>
       <form onSubmit={onSubmit}>
         <input type="email" placeholder="Email..." ref={emailRef} />
-        <input type="password" placeholder="Password..." ref={passwordRef} />
+        <input
+          type="password"
+          placeholder="6 characters or more ..."
+          ref={passwordRef}
+        />
         <button type="submit" className={cx('btn-signin')}>
           Sign In
         </button>

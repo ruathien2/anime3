@@ -13,6 +13,7 @@ function Info() {
       </div>
       <ul>
         <li>You must be logged in before posting the article</li>
+
         <li>
           Youtube link you can get from the share section of the video you want
           to get

@@ -11,18 +11,13 @@ function Forgot() {
 
   const emailRef = useRef();
 
-  const onSubmit = (e) => {
-    e.preventDefault();
-    const email = emailRef.current.value;
-    if (email) signInUser(email);
-  };
-
   const forgotPasswordHandler = () => {
     const email = emailRef.current.value;
     if (email) {
       forgotPassword(email).then(() => {
         emailRef.current.value = '';
       });
+      alert('Please check your email to change your password');
     }
   };
 
