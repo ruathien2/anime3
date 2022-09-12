@@ -70,7 +70,7 @@ function Header() {
           <input
             ref={inputRef}
             type="text"
-            placeholder="Search for your favorite anime..."
+            placeholder="Search 3 characters or more ..."
             value={input}
             onChange={(e) => setInput(e.target.value)}
             className="home__input"
